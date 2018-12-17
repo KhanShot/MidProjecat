@@ -1,0 +1,114 @@
+#main-block{
+	width: auto;
+	height: auto;
+	border:2px solid black;
+}
+#block-header{
+	width: auto;
+	height: 120px;
+	background: url(images/bg.jpg);
+	background-color: black;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	padding-left: 50px;
+	
+}
+#logo{
+	margin-left: 40px;
+	padding-right: 80px;
+}
+.bir{
+	background: url(images/home.gif) 60px no-repeat ;
+	
+}
+.eki{background: url(images/news.gif)60px no-repeat;}
+.ush{background: url(images/services.gif) 90px no-repeat;}
+.bes{background: url(images/contact.gif) 105px no-repeat;}
+.menu:hover{
+	color: white;
+}
+
+.menu{
+	padding-right: 50px;
+	color:#bbb;text-transform:uppercase;
+	align-items: center;
+	margin-right: 50px;
+	
+	font:20px "Trebuchet MS", Arial, Helvetica, sans-serif;line-height:1.2em;
+	text-decoration: none;
+	font-weight: bold;
+}
+#block-content{
+	width: 1350px;
+	height: 500px;
+	border: 1px solid green;
+	margin: 5px;
+}
+body{
+	margin: 0;
+	padding: 0;
+
+}
+/*asdljasbldkfbashgf;oash;gohas;dghaisdgflasd*/
+
+#block-footer{
+	background: url(images/bg.jpg);
+	width: 100%;
+	height: 200px;
+	color: #bbb;
+
+}
+#footbos{
+	padding: 10px;
+}
+.address{
+	font:20px "Trebuchet MS", Arial;
+	margin-right:180px: 
+}
+.about{
+	font:20px "Trebuchet MS", Arial;
+	padding-left: 90px;
+	text-decoration: none;
+
+}
+.hr .only{
+	margin-right: 50px;
+	margin-bottom: 35px; 
+	margin-top: -10px;
+	font:50px "Forte", Arial;
+	color: white;
+}
+.us {
+	margin-bottom: 5px;
+	margin-top: -40px;
+	font-size: 18px;
+}
+.text{
+	font-size: 18px;
+	width: 180px;
+}
+.address{
+	margin-right: 50px;
+	margin-top: -36px;
+	font:18px "Trebuchet MS", Arial;
+	padding-left: 90px;
+	
+}
+.hr{
+	margin: 0;
+	padding: 4px;
+}
+.hr li{
+	font:18px "Trebuchet MS", Arial;
+	display: inline-block; /* Отображать как строчный элемент */
+    margin-right: 5px; /* Отступ слева */
+    padding: 3px;
+}
+.face{
+	margin-top: -30px;
+}
+li .face, .vk, .insta, .what{
+	margin-left: 30px;
+}
+
