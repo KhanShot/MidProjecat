@@ -1,0 +1,95 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>sign up</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="sign_up.css" defer>
+	<script type="text/javascript" src="sign_up.js" defer></script>
+
+</head>
+<body style="background-image: url(sign_up.jpg);background-repeat: no-repeat;background-size: cover;">
+	
+	<div class="main">
+		<div class="container-signUp" >
+			<div class="sign-up-img" style="width: 70%;"></div>
+
+			<div class="container-sign-up" style="width: 30%;" >
+				<form class="sign-up-form" >
+					<span class="sign-up-span">
+						Sign Up
+					</span>
+
+					<div class="wrap-inputs" >
+						<span class="span-in-container">Full Name</span>
+						<input class="inputs" type="text" name="name" placeholder="Name Surname"
+						data-status="not done" oninput="checkName()">
+						<span class="animation_of_input"></span>
+					</div>
+					<div class="wrap-inputs" >
+						<span class="span-in-container">Phone number</span>
+						<input class="inputs" type="text" name="number" placeholder="8 7** *** ** **"
+						data-status="not done" oninput="checkPhoneNumber()"
+						maxlength="11" 
+						>
+						<span class="animation_of_input"></span>
+					</div>
+					<div class="wrap-inputs">
+						<span class="span-in-container">Email</span>
+						<input class="inputs" type="email" name="email" placeholder="Email addess..."
+						data-status="not done" oninput="checkEmail()">
+						<span class="animation_of_input"></span>
+					</div>
+
+					<div class="wrap-inputs" >
+						<span class="span-in-container">Username</span>
+						<input class="inputs" type="text" name="username" placeholder="Username..."
+						data-status="not done" oninput="checkUserName()">
+						<span class="animation_of_input"></span>
+					</div>
+
+					<div class="wrap-inputs">
+						<span class="span-in-container">Password</span>
+						<input class="inputs" type="password" name="pass" data-status="not done"placeholder="*************">
+						<span class="animation_of_input"> </span>
+					</div>
+
+					<div class="wrap-inputs" data-status =not done "">
+						<span class="span-in-container">Repeat Password</span>
+						<input class="inputs" type="password" name="repeat-pass" placeholder="*************"
+						data-status="not done" oninput="checkPass()">
+						<span class="animation_of_input"></span>
+					</div>
+
+					<div class="agreement-container">
+						
+							<input class="input-checkbox" id="ckb1" type="checkbox" name="agreement"data-status="not done" onclick ="checkCkb()">
+							<label class="label-checkbox" for="ckb1">
+								<span class="txt1">
+									I agree to the
+									<a href="#" class="link">
+										Terms of User
+									</a>
+								</span>
+							</label>
+						
+
+
+					</div>
+
+					<div class="sign-up-btn">
+			
+							
+							<button class="btn" data-status="-" onclick="checkBtn()">
+								Sign Up
+							</button>
+					
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
